@@ -21,7 +21,7 @@ from helpers import relative, relativeT
 
 
 
-def process_gaze(frame, points, grid_size, sensitivity=2.0, max_gaze_range=0.5):
+def process_gaze(frame, points, grid_size, sensitivity=2.5, max_gaze_range=0.5):
     """
     The gaze function gets an image and face landmarks from mediapipe framework.
     Adjusted to maximize screen reach by modifying how gaze displacement is calculated.
